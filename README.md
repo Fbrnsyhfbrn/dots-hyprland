@@ -1,16 +1,172 @@
-{
-  "marketplace:installed:snippet:Fix-progress-bar-displacement": "{\"code\":\".main-connectBar-connectBar {\\n  overflow: visible !important;\\n  position: absolute !important;\\n  display: flex !important;\\n  align-items: unset !important;\\n  left: 80% !important;\\n  height: 20px !important;\\n  bottom: 1% !important;\\n  padding: 2px !important;\\n  background-color: transparent !important;\\n  color: var(--spice-text) !important;\\n}\\n.control-button::after {\\n  display: none !important;\\n}\",\"title\":\"Fix progress bar displacement\",\"description\":\"Fixes the progress bar displacement for a few themes. Better version of @CharlieS1103 Snippet\",\"imageURL\":\"https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/assets/snippets/fix-progress-bar.png\"}",
-  "marketplace:installed-extensions": "[\"marketplace:installed:ohitstom/spicetify-extensions/npvAmbience/npvAmbience.js\"]",
-  "marketplace:installed:snippet:New-Hover-Panel": "{\"code\":\"#Desktop_LeftSidebar_Id {\\n  position: absolute;\\n  left: -280px;\\n  width: 288px;\\n  height: 100%;\\n  background-color: black;\\n  opacity: 0;\\n  visibility: visible;\\n  transition: left 0.5s ease, opacity 0.5s ease;\\n  z-index: 12;\\n}\\n#Desktop_LeftSidebar_Id:hover {\\n  left: 0;\\n  opacity: 1;\\n  visibility: visible;\\n}\\n:root {\\n  margin-left: -8px;\\n}\",\"title\":\"New Hover Panel\",\"description\":\"A New Hover Panel that servers the same purpose as the legacy 'Hover Panels', but only for the left sidebar and without modifying any other elements.\",\"imageURL\":\"https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/assets/snippets/new-hover-panel.gif\"}",
-  "marketplace:active-tab": "Installed",
-  "marketplace:installed-themes": "[]",
-  "marketplace:installed:snippet:Dark-Lyrics": "{\"code\":\".lyrics-lyrics-background { background-image: linear-gradient(315deg,var(--lyrics-color-background),black); background-size: 500%; } .lyrics-lyricsContent-lyric.lyrics-lyricsContent-highlight { color: white; } .lyrics-lyricsContent-lyric { color: #424242; }\",\"title\":\"Dark Lyrics\",\"description\":\"Replaces the highly saturated lyrics backgrounds with a very subtle dark gradient\",\"imageURL\":\"https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/assets/snippets/dark-lyrics.png\"}",
-  "marketplace:installed:ohitstom/spicetify-extensions/npvAmbience/npvAmbience.js": "{\"manifest\":{\"name\":\"NPV Ambience\",\"description\":\"Adds a colorful glow behind the Now Playing View image.\",\"preview\":\"npvAmbience/marketplace.png\",\"main\":\"npvAmbience/npvAmbience.js\",\"readme\":\"npvAmbience/README.md\",\"tags\":[\"interface\",\"decoration\"]},\"type\":\"extension\",\"title\":\"NPV Ambience\",\"subtitle\":\"Adds a colorful glow behind the Now Playing View image.\",\"authors\":[{\"name\":\"ohitstom\",\"url\":\"https://github.com/ohitstom\"}],\"user\":\"ohitstom\",\"repo\":\"spicetify-extensions\",\"branch\":\"main\",\"imageURL\":\"https://raw.githubusercontent.com/ohitstom/spicetify-extensions/main/npvAmbience/marketplace.png\",\"extensionURL\":\"https://raw.githubusercontent.com/ohitstom/spicetify-extensions/main/npvAmbience/npvAmbience.js\",\"readmeURL\":\"https://raw.githubusercontent.com/ohitstom/spicetify-extensions/main/npvAmbience/README.md\",\"stars\":110,\"lastUpdated\":\"2025-07-12T12:41:20Z\",\"created\":\"2023-05-12T00:35:27Z\"}",
-  "marketplace:installed-snippets": "[\"marketplace:installed:snippet:New-Hover-Panel\",\"marketplace:installed:snippet:Fix-progress-bar-displacement\",\"marketplace:installed:snippet:Dark-Lyrics\",\"marketplace:installed:snippet:Thicker-Bars\",\"marketplace:installed:snippet:Fix-Listening-On\",\"marketplace:installed:snippet:Thin-Library-Sidebar-Rows\",\"marketplace:installed:snippet:Remove-connect-bar\"]",
-  "marketplace:tabs": "[{\"name\":\"Extensions\",\"enabled\":true},{\"name\":\"Themes\",\"enabled\":true},{\"name\":\"Snippets\",\"enabled\":true},{\"name\":\"Apps\",\"enabled\":true},{\"name\":\"Installed\",\"enabled\":true}]",
-  "marketplace:installed:snippet:Remove-connect-bar": "{\"code\":\".main-connectBar-connectBar {\\n  display: none !important;}\",\"title\":\"Remove connect bar\",\"description\":\"Remove connect bar that causes progress bar displacement when listening on different devices\",\"imageURL\":\"https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/assets/snippets/remove-connect-bar.png\"}",
-  "marketplace:local-theme": "marketplace",
-  "marketplace:installed:snippet:Fix-Listening-On": "{\"code\":\".Svg-presentation-essentialBase-small-icon-autoMirror {fill: var(--spice-text);} .TypeElement-mesto-textBase-type {color: var(--spice-text) !important;} .main-devicePicker-indicator {display: none !important;} .main-nowPlayingBar-container {height: 72px !important;} .main-connectBar-connectBar {position: absolute !important; align-items: center !important; top: 42px !important; height: 32px !important; align-self: center !important; background-color: transparent !important; width: 30% !important;}\",\"title\":\"Fix Listening On\",\"description\":\"Fix listening on for some themes that move it up or make the text not visible\",\"imageURL\":\"https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/assets/snippets/fix-listening-on.png\"}",
-  "marketplace:installed:snippet:Thicker-Bars": "{\"code\":\".x-progressBar-progressBarBg { height: 100% !important; } .x-progressBar-sliderArea { height: 100% !important; } .x-progressBar-fillColor { height: 100% !important; }\",\"title\":\"Thicker Bars\",\"description\":\"Makes the song progress and volume bar thicker\",\"imageURL\":\"https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/assets/snippets/thicker-bars.png\"}",
-  "marketplace:installed:snippet:Thin-Library-Sidebar-Rows": "{\"code\":\".main-yourLibraryX-listItemGroup {grid-template-rows: none !important;} .main-yourLibraryX-listItemGroup * {padding-block: 0;}.main-yourLibraryX-listItem [role=\\\"group\\\"] {min-block-size: 0 !important;} .main-yourLibraryX-listItem .HeaderArea .Column {flex-direction: row; gap: 0.5em;} .main-yourLibraryX-listItem .HeaderArea * {padding-top: 0 !important; padding-bottom: 0 !important;} .main-yourLibraryX-listItem .x-entityImage-imageContainer, .main-yourLibraryX-rowCover {width: 1.6em !important; height: 1.6em !important;} .main-yourLibraryX-listRowSubtitle {padding-top: 0px;}\",\"title\":\"Thin Library Sidebar Rows\",\"description\":\"Single-line rows in the library sidebar, like the pre-2023 UI\",\"imageURL\":\"https://raw.githubusercontent.com/spicetify/spicetify-marketplace/main/resources/assets/snippets/thin-library-sidebar-rows.png\"}"
-}
+<div align="center">
+    <h1>【 end_4's Hyprland dotfiles 】</h1>
+    <h3></h3>
+</div>
+
+<div align="center"> 
+
+![](https://img.shields.io/github/last-commit/end-4/dots-hyprland?&style=for-the-badge&color=8ad7eb&logo=git&logoColor=D9E0EE&labelColor=1E202B)
+![](https://img.shields.io/github/stars/end-4/dots-hyprland?style=for-the-badge&logo=andela&color=86dbd7&logoColor=D9E0EE&labelColor=1E202B)
+![](https://img.shields.io/github/repo-size/end-4/dots-hyprland?color=86dbce&label=SIZE&logo=protondrive&style=for-the-badge&logoColor=D9E0EE&labelColor=1E202B)
+<a href="https://discord.gg/GtdRBXgMwq"> <img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2FGtdRBXgMwq%3Fwith_counts%3Dtrue&query=approximate_member_count&style=for-the-badge&logo=discord&logoColor=D9E0EE&label=discord&labelColor=%231E202B&color=86dbc0&link=https%3A%2F%2Fdiscord.gg%2FGtdRBXgMwq"> </a>
+
+</div>
+
+<div align="center">
+    <h2>• overview •</h2>
+    <h3></h3>
+</div>
+
+ <details> 
+  <summary>Notable features</summary>
+     
+  - **Overview**: Shows open apps with live previews. Type to search/calculate/run
+  - **AI**: Gemini API and Ollama models
+  - **Autogenerated colors**: Accessible and beautiful Material colors based on wallpaper
+  - **Transparent installation**: Every command is shown before it's run
+</details>
+<details> 
+  <summary>Installation (illogical-impulse Quickshell)</summary>
+
+   - Just run `bash <(curl -s https://ii.clsty.link/setup)`
+     - Or, clone this repo and run `./setup install`
+     - See [document](https://ii.clsty.link/en/ii-qs/01setup/) for details.
+   - **Default keybinds**: Should be somewhat familiar to Windows or GNOME users. Important ones:
+     - `Super`+`/` = keybind list
+     - `Super`+`Enter` = terminal
+     - If for whatever reason the keybind list widget does not work, here's an image:
+     <img width="1412" height="828" alt="image" src="https://github.com/user-attachments/assets/8f7bd216-9e03-47e3-8709-0008772a4133" />
+
+
+</details>
+
+<details>
+  <summary>Software overview</summary>
+
+
+  | Software | Purpose |
+  | ------------- | ------------- |
+  | [Hyprland](https://github.com/hyprwm/hyprland) | The compositor (manages and renders windows) |
+  | [Quickshell](https://quickshell.outfoxxed.me/) | A QtQuick-based widget system, used for the status bar, sidebars, etc. |
+
+  - For the full list of dependencies, see the [sdata/dist-arch folder](https://github.com/end-4/dots-hyprland/tree/main/sdata/dist-arch)
+  - THERE IS NO WAYBAR STOP FUCKING CALLING EVERY BAR WAYBAR
+</details>
+
+<details>
+    <summary>Discord</summary>
+        <a href="https://discord.gg/GtdRBXgMwq"> Server link </a> | I hope this provides a friendlier environment for support without needing me to personally accept every friend request/DM. For real issues, prefer GitHub
+
+</details>
+
+<div align="center">
+    <h2>• screenshots •</h2>
+    <h3></h3>
+</div>
+
+<div align="center">
+    <img src=".github/assets/illogical-impulse.svg" alt="illogical-impulse logo" style="float:left; width:400;">
+</div>
+
+### illogical-impulse<sup>Quickshell</sup>
+
+This is the latest and only supported style. Other stuff are still there mostly for viewing pleasure and not actual use, but code is still available, see below.
+
+Widget system: Quickshell | Support: Yes
+
+[Showcase video](https://www.youtube.com/watch?v=RPwovTInagE)
+
+| AI, settings app | Some widgets |
+|:---|:---------------|
+| <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7b98a354-4489-4a46-aa6a-d08616e77399" /> | <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6eba0d57-2606-4cea-8993-e6f169e82e70" /> |
+| Window management | Weeb power |
+| <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e77a7c96-1905-4126-a2a0-434f818825a2" /> | <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c8544e99-8881-477f-b83a-d6e35c0184a1" /> |
+
+### Other styles: Available at the end of the readme.
+
+<div align="center">
+    <h2>• thank you •</h2>
+    <h3></h3>
+</div>
+
+ - [@clsty](https://github.com/clsty) for making the dotfiles accessible by taking care of the install script and many other things
+ - [@midn8hustlr](https://github.com/midn8hustlr) for greatly improving the color generation system
+ - [@outfoxxed](https://github.com/outfoxxed/) for being extremely supportive in my Quickshell journey
+ - Quickshell: [Soramane](https://github.com/caelestia-dots/shell/), [FridayFaerie](https://github.com/FridayFaerie/quickshell), [nydragon](https://github.com/nydragon/nysh)
+ - AGS: [Aylur](https://github.com/Aylur/dotfiles/tree/ags-pre-ts), [kotontrion](https://github.com/kotontrion/dotfiles)
+ - EWW: [fufexan](https://github.com/fufexan/dotfiles)
+
+<div align="center">
+    <h2>• stonks •</h2>
+    <h3></h3>
+</div>
+
+- If you would like to give me some milk😳 (i dont drink coffee): https://github.com/sponsors/end-4
+- Virtual tentacle cat website points chart
+
+[![Stargazers over time](https://starchart.cc/end-4/dots-hyprland.svg?variant=adaptive)](https://starchart.cc/end-4/dots-hyprland)
+
+
+<div align="center">
+    <h2>• inspirations/copying •</h2>
+    <h3></h3>
+</div>
+
+ - Inspiration: osu!lazer, Windows 11, Material Design 3, AvdanOS (concept)
+ - Copying: The license allows you to. Personally I have absolutely no problem with others redistributing/recreating my work. There's no "stealing" (maybe unless you loudly do weird stuff and violate the license) <sub>(some people actually had to ask smh)</sub>
+
+---
+
+---
+
+<div align="center">
+    <h2>• old, UNSUPPORTED stuff •</h2>
+    <h3></h3>
+</div>
+
+- Source for illogical-impulse AGS available in the `ii-ags` branch, others in the `archive` branch.
+- The list goes from newest to the oldest, and the code quality is worse the older a style is
+- No bug fix or official support will be provided.
+
+### illogical-impulse<sup>AGS</sup>
+
+Widget system: AGS | Support: No
+
+| AI | Common widgets |
+|:---|:---------------|
+| ![image](https://github.com/user-attachments/assets/9d7af13f-89ef-470d-ba78-d2288b79cf60) | ![image](https://github.com/end-4/dots-hyprland/assets/97237370/406b72b6-fa38-4f0d-a6c4-4d7d5d5ddcb7) |
+| Window management | Weeb power |
+| ![image](https://github.com/user-attachments/assets/02983b9b-79ba-4c25-8717-90bef2357ae5) | ![image](https://github.com/user-attachments/assets/bbb332ec-962a-4e88-a95b-486d0bd8ce76) |
+
+#### m3ww
+
+   Widget system: EWW | Support: No, dead
+
+   <a href="https://streamable.com/85ch8x">
+    <img src="https://github.com/end-4/dots-hyprland/assets/97237370/09533e64-b6d7-47eb-a840-ee90c6776adf" alt="Material Eww!">
+   </a>
+
+#### NovelKnock
+
+   Widget system: EWW | Support: No
+
+   <a href="https://streamable.com/7vo61k">
+    <img src="https://github.com/end-4/dots-hyprland/assets/97237370/42903d03-bf6f-49d4-be7f-dd77e6cb389d" alt="Desktop Preview">
+   </a>
+
+#### Hybrid
+
+   Widget system: EWW | Support: No
+   
+   <a href="https://streamable.com/4oogot">
+    <img src="https://github.com/end-4/dots-hyprland/assets/97237370/190deb1e-f6f5-46ce-8cf0-9b39944c079d" alt="click the circles!">
+   </a>
+
+#### Windoes
+
+   Widget system: EWW | Support: No
+   
+   <a href="https://streamable.com/5qx614">
+    <img src="https://github.com/end-4/dots-hyprland/assets/97237370/b15317b1-f295-49f5-b90c-fb6328b8d886" alt="Desktop Preview">
+   </a>
+
